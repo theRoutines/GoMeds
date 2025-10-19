@@ -5,8 +5,8 @@ export default function Auth() {
   const [isSignup, setIsSignup] = useState(false);
 
   return (
-    <div className="w-full h-screen flex flex-col md:flex-row font-['poppins']">
-      <div className=" w-full md:w-1/2 h-1/2 md:h-full p-2">
+    <div className="w-full h-screen flex flex-col md:flex-row font-['poppins_extralight'] bg-secondary">
+      <div className="bg-secondary w-full md:w-1/2 h-4/9 md:h-full p-2">
         <img
           src={image}
           alt="GoMeds"
@@ -14,7 +14,7 @@ export default function Auth() {
         />
       </div>
 
-      <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gray-50 p-6 relative">
+      <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-secondary p-6 relative">
       <div className="hidden text-[5vw] top-25 md:block absolute">
             <h2>
                 Sign In to GoMeds
@@ -53,7 +53,7 @@ export default function Auth() {
             )}
             <button
               type="submit"
-              className="mt-2 bg-primary text-white py-3 rounded-lg font-medium hover:bg-primary hover:shadow-md transition-all duration-200"
+              className="mt-2 bg-primary text-white py-3 rounded-lg font-medium hover:bg-[#912f00] hover:shadow-md transition-all duration-200 cursor-pointer"
             >
               {isSignup ? "Sign Up" : "Login"}
             </button>
