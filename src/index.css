@@ -4,3 +4,22 @@
     --color-primary : #912f56;
     --color-secondary : #eaf2ef;
 }
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.rozha-one {
+  font-family: "Rozha One", serif;
+  font-weight: 400;
+}
+
+.zalando-sans {
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+}
